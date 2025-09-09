@@ -1,0 +1,19 @@
+# Gradle / build 
+.gradle/ 
+build/ 
+**/build/ 
+local.properties 
+/.idea/ 
+/*.iml 
+captures/ 
+.externalNativeBuild/ 
+.cxx/ 
+obj/ 
+*.jks 
+*.keystore 
+*.keystore.properties 
+*.apk 
+*.ap_ 
+*.log 
+*.hprof 
+.DS_Store 
