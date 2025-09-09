@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                         }
                     }
                 ) { innerPadding ->
-                    MiLazyColumn(
+                    Mipantalla(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun MiLazyColumn(modifier: Modifier = Modifier){
+fun Mipantalla(modifier: Modifier = Modifier){
     val elementos = listOf("Uno", "Dos", "Tres", "Cuatro", "Cinco")
 
     LazyColumn (modifier = modifier) {
@@ -54,6 +54,6 @@ fun MiLazyColumn(modifier: Modifier = Modifier){
 @Composable
 fun PreviewLazycolumn(){
     MyApplicationTheme {
-        MiLazyColumn()
+        Mipantalla()
     }
 }
