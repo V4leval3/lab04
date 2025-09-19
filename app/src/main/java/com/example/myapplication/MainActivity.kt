@@ -67,13 +67,13 @@ fun ViewHolaCurso() {
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(24.dp), // cambiado de 16 a 24 para notar el cambio
+            .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
             text = "Hola curso",
-            modifier = Modifier.padding(12.dp), // también un poco más de espacio
-            color = Color(0xFF0000FF) // cambio de estilo: texto azul
+            modifier = Modifier.padding(12.dp),
+            color = Color(0xFF0000FF) 
         )
     }
 }
